@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oleg Tattoo | Black & Grey Realism London</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0d0d0d;
+            color: #e5e5e5;
+            font-family: system-ui, -apple-system, sans-serif;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-neutral-700 selection:text-white">
+
+    <!-- Navigation -->
+    <header class="fixed w-full z-50 bg-black/80 backdrop-blur-md border-b border-neutral-800">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold tracking-widest uppercase text-white">OLEG TATTOO</a>
+            <nav class="hidden md:flex space-x-8 text-sm uppercase tracking-wider text-neutral-400">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#portfolio" class="hover:text-white transition">Portfolio</a>
+                <a href="#booking" class="hover:text-white transition">Booking</a>
+                <a href="#contact" class="hover:text-white transition">Contact</a>
+            </nav>
+            <a href="#booking" class="bg-white text-black text-xs font-bold uppercase tracking-wider px-5 py-2.5 hover:bg-neutral-300 transition">Book Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center pt-24 pb-12 px-6 bg-gradient-to-b from-black to-neutral-950">
+        <div class="max-w-4xl text-center">
+            <p class="text-xs uppercase tracking-[0.3em] text-neutral-400 mb-4">London, UK • 10+ Years Experience</p>
+            <h1 class="text-5xl md:text-7xl font-extrabold uppercase tracking-tight text-white mb-6 leading-tight">
+                Black & Grey <br/><span class="text-neutral-500">Realism Tattoo</span>
+            </h1>
+            <p class="text-neutral-400 max-w-xl mx-auto mb-10 text-base md:text-lg font-light">
+                Specializing in large-scale detailed projects, sleeves, backpieces, and custom realistic artwork.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="#portfolio" class="border border-neutral-700 px-8 py-3 text-sm uppercase tracking-wider hover:bg-white hover:text-black transition">View Portfolio</a>
+                <a href="#booking" class="bg-white text-black px-8 py-3 text-sm uppercase tracking-wider font-semibold hover:bg-neutral-300 transition">Consultation</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-24 px-6 border-t border-neutral-900 bg-neutral-950">
+        <div class="max-w-5xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+            <div>
+                <p class="text-xs uppercase tracking-widest text-neutral-500 mb-2">About The Craft</p>
+                <h2 class="text-3xl md:text-4xl font-bold uppercase tracking-wide text-white mb-6">Precision & Detail</h2>
+                <p class="text-neutral-400 mb-4 leading-relaxed">
+                    With over a decade of tattooing experience, I focus on intricate black and grey realism. From dark surrealism and detailed portraiture to high-contrast wildlife and anatomical designs.
+                </p>
+                <p class="text-neutral-400 leading-relaxed">
+                    Every piece is custom-designed to fit the contours of your body, ensuring longevity, sharp detail, and timeless aesthetics.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="bg-neutral-900 p-6 border border-neutral-800 text-center">
+                    <span class="text-3xl font-bold text-white block mb-1">10+</span>
+                    <span class="text-xs uppercase text-neutral-500 tracking-wider">Years Exp.</span>
+                </div>
+                <div class="bg-neutral-900 p-6 border border-neutral-800 text-center">
+                    <span class="text-3xl font-bold text-white block mb-1">Custom</span>
+                    <span class="text-xs uppercase text-neutral-500 tracking-wider">Designs</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Gallery -->
+    <section id="portfolio" class="py-24 px-6 bg-black">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <p class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Selected Works</p>
+                <h2 class="text-3xl md:text-4xl font-bold uppercase tracking-wide text-white">Portfolio</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC00202.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC00812.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC00816.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC00996.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC06289.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC06411.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC09176.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC09205.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC09230.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC09573.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./DSC09681.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./Facetune_21-08-2022-21-27-02.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./IMG_3460_Facetune_26-08-2022-12-14-17.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./IMG_7751.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+                <div class="aspect-[3/4] bg-neutral-900 border border-neutral-800 relative group overflow-hidden">
+                    <img src="./Untitled_Artwork.jpeg" alt="Tattoo Portfolio Work" class="w-full h-full object-cover group-hover:scale-105 transition duration-500">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="py-24 px-6 bg-neutral-950 border-t border-neutral-900">
+        <div class="max-w-3xl mx-auto">
+            <div class="text-center mb-12">
+                <p class="text-xs uppercase tracking-widest text-neutral-500 mb-2">Start Your Project</p>
+                <h2 class="text-3xl md:text-4xl font-bold uppercase tracking-wide text-white">Book a Session</h2>
+            </div>
+            
+            <form class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">Full Name</label>
+                        <input type="text" class="w-full bg-neutral-900 border border-neutral-800 px-4 py-3 text-white focus:outline-none focus:border-neutral-500" placeholder="John Doe">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">Email / Phone</label>
+                        <input type="text" class="w-full bg-neutral-900 border border-neutral-800 px-4 py-3 text-white focus:outline-none focus:border-neutral-500" placeholder="your@email.com">
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">Placement & Size</label>
+                    <input type="text" class="w-full bg-neutral-900 border border-neutral-800 px-4 py-3 text-white focus:outline-none focus:border-neutral-500" placeholder="e.g. Outer Arm, Full Back, Chest">
+                </div>
+                <div>
+                    <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">Describe Your Idea</label>
+                    <textarea rows="5" class="w-full bg-neutral-900 border border-neutral-800 px-4 py-3 text-white focus:outline-none focus:border-neutral-500" placeholder="Elements, theme, style preferences..."></textarea>
+                </div>
+                <button type="submit" class="w-full bg-white text-black font-bold uppercase tracking-widest py-4 hover:bg-neutral-300 transition">Send Request</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="py-12 border-t border-neutral-900 text-center text-xs text-neutral-500 uppercase tracking-widest">
+        <p>© OLEG TATTOO • LONDON • ALL RIGHTS RESERVED</p>
+    </footer>
+
+</body>
+</html>
